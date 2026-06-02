@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650" role="img" aria-label="Minimal cable organizer desk accessory">
+  <defs>
+    <linearGradient id="bgGradientCable" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f1f1f3"/>
+    </linearGradient>
+
+    <linearGradient id="organizerBodyCable" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8f8f9"/>
+      <stop offset="45%" stop-color="#d7d7dc"/>
+      <stop offset="100%" stop-color="#9d9da3"/>
+    </linearGradient>
+
+    <linearGradient id="darkSlotCable" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3a3a3c"/>
+      <stop offset="100%" stop-color="#090909"/>
+    </linearGradient>
+
+    <linearGradient id="cableDark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#303034"/>
+      <stop offset="50%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+
+    <linearGradient id="cableLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="#d8d8dc"/>
+      <stop offset="100%" stop-color="#a8a8ae"/>
+    </linearGradient>
+
+    <filter id="softShadowCable" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#000000" flood-opacity="0.16"/>
+    </filter>
+
+    <filter id="lightShadowCable" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#000000" flood-opacity="0.11"/>
+    </filter>
+
+    <filter id="tinyShadowCable" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#000000" flood-opacity="0.11"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="650" rx="44" fill="#f5f5f7"/>
+  <rect x="34" y="34" width="832" height="582" rx="36" fill="url(#bgGradientCable)" stroke="#d8d8dc"/>
+
+  <g opacity="0.48">
+    <line x1="104" y1="138" x2="796" y2="138" stroke="#ececf0" stroke-width="1"/>
+    <line x1="104" y1="252" x2="796" y2="252" stroke="#ececf0" stroke-width="1"/>
+    <line x1="104" y1="366" x2="796" y2="366" stroke="#ececf0" stroke-width="1"/>
+    <line x1="104" y1="480" x2="796" y2="480" stroke="#ececf0" stroke-width="1"/>
+    <line x1="178" y1="94" x2="178" y2="526" stroke="#f0f0f3" stroke-width="1"/>
+    <line x1="328" y1="94" x2="328" y2="526" stroke="#f0f0f3" stroke-width="1"/>
+    <line x1="478" y1="94" x2="478" y2="526" stroke="#f0f0f3" stroke-width="1"/>
+    <line x1="628" y1="94" x2="628" y2="526" stroke="#f0f0f3" stroke-width="1"/>
+  </g>
+
+  <ellipse cx="450" cy="496" rx="270" ry="36" fill="#000000" opacity="0.08"/>
+
+  <g filter="url(#softShadowCable)">
+    <path d="M238 378 C268 342 632 342 662 378 L712 459 C721 474 711 493 693 493 H207 C189 493 179 474 188 459 Z" fill="url(#organizerBodyCable)" stroke="#8f8f95" stroke-width="3"/>
+    <path d="M264 385 C297 362 603 362 636 385 L672 447 H228 Z" fill="#ffffff" opacity="0.42"/>
+    <rect x="222" y="455" width="456" height="17" rx="8.5" fill="#111111" opacity="0.84"/>
+    <rect x="296" y="412" width="308" height="12" rx="6" fill="#111111" opacity="0.16"/>
+
+    <circle cx="286" cy="466" r="5" fill="#f7f7f8" opacity="0.85"/>
+    <circle cx="450" cy="466" r="5" fill="#f7f7f8" opacity="0.85"/>
+    <circle cx="614" cy="466" r="5" fill="#f7f7f8" opacity="0.85"/>
+  </g>
+
+  <g filter="url(#lightShadowCable)">
+    <rect x="270" y="260" width="360" height="136" rx="42" fill="url(#organizerBodyCable)" stroke="#8f8f95" stroke-width="3"/>
+    <rect x="288" y="276" width="324" height="104" rx="32" fill="#ffffff" opacity="0.28"/>
+    <rect x="294" y="287" width="312" height="82" rx="28" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.34"/>
+
+    <g>
+      <path d="M326 258 V397" stroke="url(#darkSlotCable)" stroke-width="31" stroke-linecap="round"/>
+      <path d="M326 289 V365" stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity="0.18"/>
+
+      <path d="M409 258 V397" stroke="url(#darkSlotCable)" stroke-width="31" stroke-linecap="round"/>
+      <path d="M409 289 V365" stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity="0.18"/>
+
+      <path d="M491 258 V397" stroke="url(#darkSlotCable)" stroke-width="31" stroke-linecap="round"/>
+      <path d="M491 289 V365" stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity="0.18"/>
+
+      <path d="M574 258 V397" stroke="url(#darkSlotCable)" stroke-width="31" stroke-linecap="round"/>
+      <path d="M574 289 V365" stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity="0.18"/>
+    </g>
+
+    <rect x="305" y="379" width="42" height="13" rx="6.5" fill="#111111" opacity="0.35"/>
+    <rect x="388" y="379" width="42" height="13" rx="6.5" fill="#111111" opacity="0.35"/>
+    <rect x="470" y="379" width="42" height="13" rx="6.5" fill="#111111" opacity="0.35"/>
+    <rect x="553" y="379" width="42" height="13" rx="6.5" fill="#111111" opacity="0.35"/>
+  </g>
+
+  <g filter="url(#tinyShadowCable)" opacity="0.98">
+    <path d="M326 142 C326 182 326 214 326 257" fill="none" stroke="url(#cableDark)" stroke-width="16" stroke-linecap="round"/>
+    <path d="M409 118 C395 157 397 207 409 257" fill="none" stroke="url(#cableLight)" stroke-width="16" stroke-linecap="round"/>
+    <path d="M491 128 C511 169 513 213 491 257" fill="none" stroke="url(#cableDark)" stroke-width="16" stroke-linecap="round"/>
+    <path d="M574 146 C574 185 574 217 574 257" fill="none" stroke="url(#cableLight)" stroke-width="16" stroke-linecap="round"/>
+
+    <rect x="306" y="108" width="40" height="44" rx="12" fill="#111111"/>
+    <rect x="315" y="116" width="22" height="13" rx="5" fill="#ffffff" opacity="0.78"/>
+    <rect x="318" y="134" width="16" height="8" rx="4" fill="#ffffff" opacity="0.24"/>
+
+    <rect x="386" y="82" width="46" height="44" rx="13" fill="#f8f8f9" stroke="#9a9aa0" stroke-width="2"/>
+    <rect x="398" y="93" width="22" height="14" rx="5" fill="#111111" opacity="0.88"/>
+
+    <rect x="471" y="91" width="40" height="44" rx="12" fill="#111111"/>
+    <circle cx="491" cy="110" r="9" fill="#ffffff" opacity="0.72"/>
+    <circle cx="491" cy="110" r="4" fill="#111111" opacity="0.88"/>
+
+    <rect x="552" y="112" width="44" height="44" rx="13" fill="#f8f8f9" stroke="#9a9aa0" stroke-width="2"/>
+    <rect x="565" y="123" width="18" height="14" rx="4" fill="#111111" opacity="0.88"/>
+  </g>
+
+  <g filter="url(#tinyShadowCable)" opacity="0.96">
+    <path d="M225 344 C190 308 188 262 226 233 C266 203 307 220 326 257" fill="none" stroke="url(#cableDark)" stroke-width="12" stroke-linecap="round"/>
+    <path d="M675 342 C714 312 719 265 684 234 C648 202 600 219 574 257" fill="none" stroke="url(#cableLight)" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="226" cy="233" r="9" fill="#111111"/>
+    <circle cx="684" cy="234" r="9" fill="#f8f8f9" stroke="#9a9aa0" stroke-width="2"/>
+  </g>
+
+  <g opacity="0.98">
+    <rect x="612" y="126" width="212" height="174" rx="22" fill="#ffffff" stroke="#d8d8dc"/>
+    <line x1="636" y1="161" x2="690" y2="161" stroke="#111111" stroke-width="2.6" stroke-linecap="round"/>
+    <line x1="636" y1="198" x2="710" y2="198" stroke="#111111" stroke-width="2.6" stroke-linecap="round"/>
+    <line x1="636" y1="235" x2="682" y2="235" stroke="#111111" stroke-width="2.6" stroke-linecap="round"/>
+    <line x1="636" y1="272" x2="700" y2="272" stroke="#111111" stroke-width="2.6" stroke-linecap="round"/>
+
+    <circle cx="622" cy="161" r="4.5" fill="#111111"/>
+    <circle cx="622" cy="198" r="4.5" fill="#111111"/>
+    <circle cx="622" cy="235" r="4.5" fill="#111111"/>
+    <circle cx="622" cy="272" r="4.5" fill="#111111"/>
+
+    <text x="722" y="167" fill="#111111" font-size="18" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700">4 slots</text>
+    <text x="722" y="204" fill="#111111" font-size="18" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700">Adhesive base</text>
+    <text x="722" y="241" fill="#111111" font-size="18" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700">USB-C ready</text>
+    <text x="722" y="278" fill="#111111" font-size="18" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700">Desk clean</text>
+  </g>
+
+  <g opacity="0.9">
+    <path d="M150 397 C189 363 232 342 286 334" fill="none" stroke="#111111" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="7 9"/>
+    <path d="M282 324 L304 332 L287 348" fill="none" stroke="#111111" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="96" y="414" width="210" height="38" rx="19" fill="#ffffff" stroke="#d8d8dc"/>
+    <text x="201" y="439" text-anchor="middle" fill="#111111" font-size="17" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700">Low-profile base</text>
+  </g>
+
+  <g opacity="0.9">
+    <path d="M333 274 C371 237 430 225 491 257" fill="none" stroke="#111111" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="6 9"/>
+    <path d="M482 245 L508 267 L476 270" fill="none" stroke="#111111" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="315" y="202" width="212" height="38" rx="19" fill="#ffffff" stroke="#d8d8dc"/>
+    <text x="421" y="227" text-anchor="middle" fill="#111111" font-size="17" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700">Guided cable paths</text>
+  </g>
+
+  <g opacity="0.9">
+    <path d="M525 418 C563 429 601 444 633 470" fill="none" stroke="#111111" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="6 9"/>
+    <path d="M629 456 L646 481 L617 474" fill="none" stroke="#111111" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="586" y="425" width="170" height="38" rx="19" fill="#ffffff" stroke="#d8d8dc"/>
+    <text x="671" y="450" text-anchor="middle" fill="#111111" font-size="17" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700">No cable fall</text>
+  </g>
+
+  <g>
+    <rect x="208" y="536" width="484" height="54" rx="27" fill="#ffffff" stroke="#d8d8dc"/>
+    <text x="450" y="572" text-anchor="middle" fill="#050505" font-size="34" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="800" letter-spacing="-1.2">Minimal Cable Organizer</text>
+    <text x="450" y="613" text-anchor="middle" fill="#4b4b50" font-size="21" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="600">Clean cable routing · DeskLab Store</text>
+  </g>
+</svg>

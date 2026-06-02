@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650" role="img" aria-label="Adjustable minimalist laptop stand">
+  <defs>
+    <linearGradient id="bgGradientLaptop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f1f1f3"/>
+    </linearGradient>
+
+    <linearGradient id="laptopLidLaptop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f9f9fb"/>
+      <stop offset="48%" stop-color="#d7d7dc"/>
+      <stop offset="100%" stop-color="#a8a8ae"/>
+    </linearGradient>
+
+    <linearGradient id="screenGlassLaptop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#161618"/>
+      <stop offset="55%" stop-color="#050505"/>
+      <stop offset="100%" stop-color="#2d2d30"/>
+    </linearGradient>
+
+    <linearGradient id="standMetalLaptop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f7f8"/>
+      <stop offset="42%" stop-color="#d5d5da"/>
+      <stop offset="100%" stop-color="#9d9da3"/>
+    </linearGradient>
+
+    <linearGradient id="darkMetalLaptop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3a3a3c"/>
+      <stop offset="100%" stop-color="#111111"/>
+    </linearGradient>
+
+    <filter id="softShadowLaptop" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#000000" flood-opacity="0.16"/>
+    </filter>
+
+    <filter id="lightShadowLaptop" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#000000" flood-opacity="0.11"/>
+    </filter>
+
+    <filter id="tinyShadowLaptop" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#000000" flood-opacity="0.11"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="650" rx="44" fill="#f5f5f7"/>
+  <rect x="34" y="34" width="832" height="582" rx="36" fill="url(#bgGradientLaptop)" stroke="#d8d8dc"/>
+
+  <g opacity="0.48">
+    <line x1="104" y1="138" x2="796" y2="138" stroke="#ececf0" stroke-width="1"/>
+    <line x1="104" y1="252" x2="796" y2="252" stroke="#ececf0" stroke-width="1"/>
+    <line x1="104" y1="366" x2="796" y2="366" stroke="#ececf0" stroke-width="1"/>
+    <line x1="104" y1="480" x2="796" y2="480" stroke="#ececf0" stroke-width="1"/>
+    <line x1="178" y1="94" x2="178" y2="526" stroke="#f0f0f3" stroke-width="1"/>
+    <line x1="328" y1="94" x2="328" y2="526" stroke="#f0f0f3" stroke-width="1"/>
+    <line x1="478" y1="94" x2="478" y2="526" stroke="#f0f0f3" stroke-width="1"/>
+    <line x1="628" y1="94" x2="628" y2="526" stroke="#f0f0f3" stroke-width="1"/>
+  </g>
+
+  <ellipse cx="448" cy="490" rx="265" ry="35" fill="#000000" opacity="0.08"/>
+
+  <g filter="url(#softShadowLaptop)">
+    <path d="M222 446 C261 420 640 420 679 446 L722 493 C733 505 724 524 707 524 H194 C177 524 168 505 179 493 Z" fill="url(#standMetalLaptop)" stroke="#8f8f95" stroke-width="3"/>
+    <path d="M244 451 C288 436 613 436 657 451 L690 486 H211 Z" fill="#ffffff" opacity="0.45"/>
+    <rect x="212" y="489" width="476" height="18" rx="9" fill="#111111" opacity="0.88"/>
+    <rect x="272" y="462" width="356" height="12" rx="6" fill="#111111" opacity="0.18"/>
+    <circle cx="303" cy="502" r="5" fill="#f7f7f8" opacity="0.85"/>
+    <circle cx="596" cy="502" r="5" fill="#f7f7f8" opacity="0.85"/>
+  </g>
+
+  <g filter="url(#lightShadowLaptop)">
+    <path d="M309 428 L397 311 C407 298 426 306 425 323 L416 438 C415 448 407 456 397 456 H319 C305 456 300 439 309 428 Z" fill="url(#darkMetalLaptop)" stroke="#000000" stroke-width="2"/>
+    <path d="M591 428 L503 311 C493 298 474 306 475 323 L484 438 C485 448 493 456 503 456 H581 C595 456 600 439 591 428 Z" fill="url(#darkMetalLaptop)" stroke="#000000" stroke-width="2"/>
+    <path d="M335 425 L401 337" stroke="#ffffff" stroke-width="4" opacity="0.16" stroke-linecap="round"/>
+    <path d="M565 425 L499 337" stroke="#ffffff" stroke-width="4" opacity="0.16" stroke-linecap="round"/>
+    <circle cx="414" cy="322" r="17" fill="#111111" stroke="#d7d7dc" stroke-width="5"/>
+    <circle cx="486" cy="322" r="17" fill="#111111" stroke="#d7d7dc" stroke-width="5"/>
+    <circle cx="414" cy="322" r="5" fill="#f5f5f7"/>
+    <circle cx="486" cy="322" r="5" fill="#f5f5f7"/>
+  </g>
+
+  <g filter="url(#softShadowLaptop)" transform="rotate(-8 449 290)">
+    <rect x="235" y="145" width="430" height="250" rx="28" fill="url(#laptopLidLaptop)" stroke="#9a9aa0" stroke-width="3"/>
+    <rect x="253" y="163" width="394" height="212" rx="18" fill="url(#screenGlassLaptop)"/>
+    <rect x="270" y="181" width="360" height="176" rx="12" fill="#fbfbfd" opacity="0.95"/>
+
+    <circle cx="450" cy="156" r="4" fill="#77777d"/>
+    <rect x="402" y="184" width="96" height="12" rx="6" fill="#111111"/>
+    <circle cx="514" cy="190" r="4" fill="#2b2b2d"/>
+    <circle cx="514" cy="190" r="1.8" fill="#77777d"/>
+
+    <g opacity="0.9">
+      <rect x="305" y="225" width="162" height="15" rx="7.5" fill="#d1d1d6"/>
+      <rect x="305" y="255" width="230" height="10" rx="5" fill="#e0e0e4"/>
+      <rect x="305" y="276" width="196" height="10" rx="5" fill="#e0e0e4"/>
+      <rect x="305" y="297" width="132" height="10" rx="5" fill="#e0e0e4"/>
+    </g>
+
+    <g>
+      <rect x="520" y="223" width="78" height="74" rx="16" fill="#ffffff" stroke="#d1d1d6"/>
+      <circle cx="546" cy="260" r="15" fill="#111111"/>
+      <circle cx="546" cy="260" r="6" fill="#f5f5f7"/>
+      <rect x="570" y="242" width="18" height="7" rx="3.5" fill="#c7c7cc"/>
+      <rect x="570" y="258" width="22" height="7" rx="3.5" fill="#d8d8dc"/>
+      <rect x="570" y="274" width="15" height="7" rx="3.5" fill="#e5e5e8"/>
+    </g>
+
+    <path d="M258 393 H642 C655 393 666 404 666 417 C666 424 660 430 653 430 H247 C240 430 234 424 234 417 C234 404 245 393 258 393 Z" fill="url(#standMetalLaptop)" stroke="#909096" stroke-width="3"/>
+    <path d="M289 405 H611" stroke="#ffffff" stroke-width="4" opacity="0.45" stroke-linecap="round"/>
+    <rect x="405" y="407" width="90" height="10" rx="5" fill="#111111" opacity="0.18"/>
+  </g>
+
+  <g filter="url(#tinyShadowLaptop)">
+    <path d="M275 418 H622 C632 418 641 427 641 438 V455 C641 463 635 469 627 469 H270 C262 469 256 463 256 455 V438 C256 427 265 418 275 418 Z" fill="#111111"/>
+    <rect x="298" y="428" width="58" height="12" rx="6" fill="#ffffff" opacity="0.72"/>
+    <rect x="544" y="428" width="58" height="12" rx="6" fill="#ffffff" opacity="0.72"/>
+    <rect x="404" y="431" width="90" height="7" rx="3.5" fill="#ffffff" opacity="0.26"/>
+  </g>
+
+  <g opacity="0.98">
+    <rect x="610" y="126" width="214" height="174" rx="22" fill="#ffffff" stroke="#d8d8dc"/>
+    <line x1="634" y1="161" x2="688" y2="161" stroke="#111111" stroke-width="2.6" stroke-linecap="round"/>
+    <line x1="634" y1="198" x2="708" y2="198" stroke="#111111" stroke-width="2.6" stroke-linecap="round"/>
+    <line x1="634" y1="235" x2="680" y2="235" stroke="#111111" stroke-width="2.6" stroke-linecap="round"/>
+    <line x1="634" y1="272" x2="698" y2="272" stroke="#111111" stroke-width="2.6" stroke-linecap="round"/>
+
+    <circle cx="620" cy="161" r="4.5" fill="#111111"/>
+    <circle cx="620" cy="198" r="4.5" fill="#111111"/>
+    <circle cx="620" cy="235" r="4.5" fill="#111111"/>
+    <circle cx="620" cy="272" r="4.5" fill="#111111"/>
+
+    <text x="720" y="167" fill="#111111" font-size="18" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700">Airflow</text>
+    <text x="720" y="204" fill="#111111" font-size="18" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700">Foldable</text>
+    <text x="720" y="241" fill="#111111" font-size="18" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700">Anti-slip</text>
+    <text x="720" y="278" fill="#111111" font-size="18" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700">Aluminum</text>
+  </g>
+
+  <g opacity="0.9">
+    <path d="M157 423 C202 372 249 340 305 324" fill="none" stroke="#111111" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="7 9"/>
+    <path d="M301 314 L323 322 L306 338" fill="none" stroke="#111111" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="105" y="435" width="215" height="38" rx="19" fill="#ffffff" stroke="#d8d8dc"/>
+    <text x="212" y="460" text-anchor="middle" fill="#111111" font-size="17" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700">Ergonomic angle</text>
+  </g>
+
+  <g opacity="0.9">
+    <path d="M332 380 C372 359 424 352 478 361 C521 368 560 383 592 407" fill="none" stroke="#111111" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="6 9"/>
+    <path d="M588 395 L606 420 L576 416" fill="none" stroke="#111111" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="312" y="327" width="190" height="38" rx="19" fill="#ffffff" stroke="#d8d8dc"/>
+    <text x="407" y="352" text-anchor="middle" fill="#111111" font-size="17" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700">Cooling path</text>
+  </g>
+
+  <g>
+    <rect x="220" y="536" width="460" height="54" rx="27" fill="#ffffff" stroke="#d8d8dc"/>
+    <text x="450" y="572" text-anchor="middle" fill="#050505" font-size="34" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="800" letter-spacing="-1.2">Foldable Laptop Stand</text>
+    <text x="450" y="613" text-anchor="middle" fill="#4b4b50" font-size="21" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="600">Minimal workspace accessory · DeskLab Store</text>
+  </g>
+</svg>

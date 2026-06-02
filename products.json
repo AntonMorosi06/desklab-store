@@ -1,0 +1,112 @@
+[
+  {
+    "id": "phone-stand-01",
+    "name": "Supporto smartphone regolabile",
+    "category": "Telefono",
+    "price": 18.9,
+    "compareAt": 24.9,
+    "status": "Disponibilità da confermare",
+    "risk": "basso",
+    "supplierCostTarget": "5,00–8,00 €",
+    "shippingEstimate": "7–15 giorni lavorativi dopo conferma fornitore",
+    "marginGoal": "almeno 35% dopo spedizione e commissioni",
+    "short": "Supporto compatto per tenere il telefono stabile durante studio, videochiamate e lavoro alla scrivania.",
+    "description": "Pensato per chi studia, programma o lavora al computer e vuole tenere lo smartphone visibile senza appoggiarlo in modo casuale. È un prodotto leggero, semplice da spedire e facile da spiegare al cliente.",
+    "features": [
+      "angolo regolabile",
+      "base stabile",
+      "compatto",
+      "adatto a scrivania e comodino"
+    ],
+    "image": "assets/images/product-phone-stand.svg",
+    "paymentLink": ""
+  },
+  {
+    "id": "cable-organizer-01",
+    "name": "Organizer cavi da scrivania",
+    "category": "Organizzazione",
+    "price": 12.9,
+    "compareAt": 16.9,
+    "status": "Disponibilità da confermare",
+    "risk": "basso",
+    "supplierCostTarget": "2,00–5,00 €",
+    "shippingEstimate": "7–15 giorni lavorativi dopo conferma fornitore",
+    "marginGoal": "almeno 40% dopo spedizione e commissioni",
+    "short": "Set pratico per tenere ordinati cavi USB, ricarica, cuffie e piccoli accessori vicino al laptop.",
+    "description": "Prodotto molto adatto a una prima validazione perché risolve un problema evidente, costa poco, pesa poco e riduce il rischio logistico rispetto a elettronica o prodotti fragili.",
+    "features": [
+      "ordine cavi",
+      "installazione semplice",
+      "leggero",
+      "utile per studio e lavoro"
+    ],
+    "image": "assets/images/product-cable-organizer.svg",
+    "paymentLink": ""
+  },
+  {
+    "id": "laptop-stand-01",
+    "name": "Stand laptop pieghevole",
+    "category": "Postazione",
+    "price": 27.9,
+    "compareAt": 34.9,
+    "status": "Disponibilità da confermare",
+    "risk": "medio-basso",
+    "supplierCostTarget": "9,00–15,00 €",
+    "shippingEstimate": "7–18 giorni lavorativi dopo conferma fornitore",
+    "marginGoal": "almeno 30% dopo spedizione e commissioni",
+    "short": "Supporto pieghevole per alzare il portatile e migliorare postura, raffreddamento e ordine della postazione.",
+    "description": "È uno dei prodotti più coerenti con un negozio tech/studio. Va selezionato con attenzione per stabilità, materiale e compatibilità dimensionale.",
+    "features": [
+      "pieghevole",
+      "migliora postura",
+      "aiuta ventilazione",
+      "adatto a studenti e programmatori"
+    ],
+    "image": "assets/images/product-laptop-stand.svg",
+    "paymentLink": ""
+  },
+  {
+    "id": "desk-mat-01",
+    "name": "Tappetino desk setup XL",
+    "category": "Postazione",
+    "price": 29.9,
+    "compareAt": 39.9,
+    "status": "Disponibilità da confermare",
+    "risk": "medio",
+    "supplierCostTarget": "8,00–16,00 €",
+    "shippingEstimate": "8–18 giorni lavorativi dopo conferma fornitore",
+    "marginGoal": "almeno 30% dopo spedizione e commissioni",
+    "short": "Tappetino grande per mouse, tastiera e notebook, pensato per rendere più pulita e coerente la scrivania.",
+    "description": "Prodotto visuale e facile da comunicare sui social. Da verificare bene qualità del materiale, odore, bordo e dimensioni reali.",
+    "features": [
+      "superficie ampia",
+      "look pulito",
+      "protegge la scrivania",
+      "adatto a setup studio/lavoro"
+    ],
+    "image": "assets/images/product-desk-mat.svg",
+    "paymentLink": ""
+  },
+  {
+    "id": "headphone-holder-01",
+    "name": "Supporto cuffie minimal",
+    "category": "Organizzazione",
+    "price": 14.9,
+    "compareAt": 19.9,
+    "status": "Disponibilità da confermare",
+    "risk": "basso",
+    "supplierCostTarget": "3,00–7,00 €",
+    "shippingEstimate": "7–15 giorni lavorativi dopo conferma fornitore",
+    "marginGoal": "almeno 35% dopo spedizione e commissioni",
+    "short": "Supporto semplice per cuffie gaming, studio o lavoro, utile per liberare spazio e dare ordine alla postazione.",
+    "description": "Prodotto semplice, basso rischio, coerente con un catalogo iniziale dedicato a desk setup, studio e tecnologia quotidiana.",
+    "features": [
+      "ingombro ridotto",
+      "ordine immediato",
+      "compatibile con cuffie comuni",
+      "facile da spedire"
+    ],
+    "image": "assets/images/product-headphone-holder.svg",
+    "paymentLink": ""
+  }
+]

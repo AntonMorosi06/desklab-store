@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="DeskLab Store: accessori selezionati per studio, scrivania, tecnologia e produttività. MVP gratuito per validare prodotti prima di scalare." />
+  <title>DeskLab Store — Minimal tech essentials</title>
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="site-loader" id="siteLoader" aria-label="Caricamento sito" role="status">
+  <div class="loader-inner">
+    <div class="loader-brand">
+      <span class="loader-mark">DL</span>
+      <span class="loader-name">DeskLab Store</span>
+    </div>
+
+    <div class="loader-line" aria-hidden="true">
+      <span class="loader-progress"></span>
+    </div>
+
+    <p class="loader-status" id="loaderStatus">Preparing workspace essentials</p>
+  </div>
+</div>
+  <a class="skip-link" href="#catalogo">Vai al catalogo</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navigazione principale">
+      <a class="brand" href="#top" aria-label="DeskLab Store home">
+        <span class="brand-mark">DL</span>
+        <span>
+          <strong>DeskLab Store</strong>
+          <small>Tech desk essentials</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navLinks">
+        <span>Menu</span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#catalogo">Catalogo</a>
+        <a href="#metodo">Come funziona</a>
+        <a href="#margini">Metodo</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contatti" class="nav-cta">Richiedi info</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Minimal store · fase validazione</p>
+          <h1>Accessori essenziali per una scrivania più pulita, ordinata e produttiva.</h1>
+          <p class="lead">
+            Una selezione ridotta, sobria e controllata di prodotti per studio, lavoro e setup digitale.
+            Prima verifichiamo disponibilità, qualità e tempi reali, poi procediamo con l’ordine.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#catalogo">Esplora catalogo</a>
+            <a class="btn secondary" href="#metodo">Metodo d’acquisto</a>
+          </div>
+
+          <dl class="trust-strip" aria-label="Punti di fiducia">
+            <div>
+              <dt>5</dt>
+              <dd>prodotti iniziali</dd>
+            </div>
+            <div>
+              <dt>0</dt>
+              <dd>stock obbligatorio</dd>
+            </div>
+            <div>
+              <dt>100%</dt>
+              <dd>ordine controllato</dd>
+            </div>
+          </dl>
+        </div>
+
+        <aside class="hero-panel" aria-label="Stato progetto">
+          <div class="panel-card">
+            <span class="status-dot"></span>
+            <p class="panel-label">Stato attuale</p>
+            <h2>Validazione catalogo v0.2</h2>
+            <p>
+              Design minimale, catalogo corto e acquisto controllato: prima si valida il prodotto, poi si scala senza appesantire il progetto.
+            </p>
+            <div class="mini-metrics">
+              <span>Catalogo pronto</span>
+              <span>Pagamenti manuali</span>
+              <span>Legal draft</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section container" id="catalogo">
+      <div class="section-heading">
+        <p class="eyebrow">Catalogo iniziale</p>
+        <h2>Prodotti selezionati, pochi e verificabili.</h2>
+        <p>
+          I prodotti qui sotto sono pensati per un test controllato: basso rischio, peso contenuto,
+          utilità chiara e margine verificabile.
+        </p>
+      </div>
+
+      <div class="toolbar" aria-label="Filtri catalogo">
+        <label class="search-box">
+          <span>Cerca</span>
+          <input id="searchInput" type="search" placeholder="Esempio: cavi, laptop, supporto..." autocomplete="off" />
+        </label>
+
+        <label class="select-box">
+          <span>Categoria</span>
+          <select id="categorySelect">
+            <option value="all">Tutte</option>
+          </select>
+        </label>
+
+        <button class="btn ghost" id="resetFilters" type="button">Reset</button>
+      </div>
+
+      <div class="product-grid" id="productGrid" aria-live="polite"></div>
+    </section>
+
+    <section class="section section-alt" id="metodo">
+      <div class="container process-grid">
+        <div class="section-heading compact">
+          <p class="eyebrow">Metodo d’acquisto</p>
+          <h2>Prima verifica, poi pagamento.</h2>
+          <p>
+            Questa prima versione non forza checkout automatici. Ogni ordine viene confermato manualmente:
+            disponibilità, tempi, prezzo finale e condizioni devono essere chiari prima del pagamento.
+          </p>
+        </div>
+
+        <div class="steps">
+          <article>
+            <span>01</span>
+            <h3>Scegli il prodotto</h3>
+            <p>Guardi catalogo, prezzo indicativo, tempi e dettagli essenziali.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Richiedi disponibilità</h3>
+            <p>Invii una richiesta via email con prodotto e quantità desiderata.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Conferma fornitore</h3>
+            <p>Controlliamo disponibilità, tempi reali, costo finale e condizioni.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Pagamento sicuro</h3>
+            <p>Solo dopo conferma ricevi link pagamento o istruzioni d’ordine.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="margini">
+      <div class="section-heading">
+        <p class="eyebrow">Metodo imprenditoriale</p>
+        <h2>Ogni prodotto deve stare in piedi coi numeri.</h2>
+      </div>
+
+      <div class="formula-card">
+        <p>
+          Margine reale = prezzo vendita − costo fornitore − spedizione − commissioni pagamento − buffer resi − costi fiscali/operativi.
+        </p>
+        <small>
+          Se il margine reale è debole, il prodotto non entra nel catalogo. Non basta “sembrare economico”:
+          deve reggere spedizione, assistenza, resi e tempo operativo.
+        </small>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="faq">
+      <div class="container faq-grid">
+        <div class="section-heading compact">
+          <p class="eyebrow">FAQ</p>
+          <h2>Domande importanti prima di ordinare.</h2>
+        </div>
+
+        <div class="faq-list">
+          <details open>
+            <summary>I prodotti sono già disponibili?</summary>
+            <p>
+              In questa fase alcuni prodotti sono in validazione. Prima del pagamento viene sempre confermata
+              disponibilità reale, prezzo finale e tempo stimato.
+            </p>
+          </details>
+          <details>
+            <summary>Perché non c’è subito un carrello completo?</summary>
+            <p>
+              Perché questa è una versione MVP. Il carrello automatico ha senso dopo aver validato domanda,
+              fornitori, tempi e qualità.
+            </p>
+          </details>
+          <details>
+            <summary>Posso fare un reso?</summary>
+            <p>
+              Le condizioni definitive saranno indicate prima dell’acquisto. Per vendite online verso consumatori
+              nell’UE va considerato il diritto di recesso previsto dalla normativa applicabile.
+            </p>
+          </details>
+          <details>
+            <summary>Questo è un negozio definitivo?</summary>
+            <p>
+              No. È una baseline ordinata per partire: catalogo, richiesta ordine, test clienti, prime vendite controllate
+              e successiva evoluzione verso e-commerce completo.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="contatti">
+      <div class="contact-card">
+        <div>
+          <p class="eyebrow">Contatti</p>
+          <h2>Vuoi testare un prodotto o fare il primo ordine?</h2>
+          <p>
+            Scrivi una richiesta chiara con nome prodotto, quantità e città di spedizione. Riceverai conferma prima di qualsiasi pagamento.
+          </p>
+        </div>
+        <div class="contact-actions">
+          <a class="btn primary" id="generalMailLink" href="#">Scrivi una richiesta</a>
+          <button class="btn secondary" id="copyEmailBtn" type="button">Copia email</button>
+          <p id="copyStatus" class="copy-status" role="status" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>DeskLab Store</strong>
+        <p>MVP minimale per validare accessori tech, studio e desk setup.</p>
+      </div>
+      <div>
+        <a href="legal/shipping_returns.md">Spedizioni e resi</a>
+        <a href="legal/privacy_notes.md">Privacy notes</a>
+        <a href="legal/terms_draft.md">Termini bozza</a>
+      </div>
+    </div>
+  </footer>
+
+  <dialog id="productDialog" class="dialog">
+    <button class="dialog-close" type="button" aria-label="Chiudi">×</button>
+    <div id="dialogContent"></div>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>

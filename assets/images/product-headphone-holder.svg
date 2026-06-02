@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650" role="img" aria-label="Minimal headphone holder desk accessory">
+  <defs>
+    <linearGradient id="bgGradientHeadphone" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f1f1f3"/>
+    </linearGradient>
+
+    <linearGradient id="metalHeadphone" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8f8f9"/>
+      <stop offset="45%" stop-color="#d7d7dc"/>
+      <stop offset="100%" stop-color="#9d9da3"/>
+    </linearGradient>
+
+    <linearGradient id="darkMetalHeadphone" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3a3a3c"/>
+      <stop offset="100%" stop-color="#090909"/>
+    </linearGradient>
+
+    <linearGradient id="earcupHeadphone" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#202022"/>
+      <stop offset="55%" stop-color="#050505"/>
+      <stop offset="100%" stop-color="#333336"/>
+    </linearGradient>
+
+    <linearGradient id="paddingHeadphone" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4a4a4f"/>
+      <stop offset="100%" stop-color="#111111"/>
+    </linearGradient>
+
+    <filter id="softShadowHeadphone" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#000000" flood-opacity="0.16"/>
+    </filter>
+
+    <filter id="lightShadowHeadphone" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#000000" flood-opacity="0.11"/>
+    </filter>
+
+    <filter id="tinyShadowHeadphone" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#000000" flood-opacity="0.11"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="650" rx="44" fill="#f5f5f7"/>
+  <rect x="34" y="34" width="832" height="582" rx="36" fill="url(#bgGradientHeadphone)" stroke="#d8d8dc"/>
+
+  <g opacity="0.48">
+    <line x1="104" y1="138" x2="796" y2="138" stroke="#ececf0" stroke-width="1"/>
+    <line x1="104" y1="252" x2="796" y2="252" stroke="#ececf0" stroke-width="1"/>
+    <line x1="104" y1="366" x2="796" y2="366" stroke="#ececf0" stroke-width="1"/>
+    <line x1="104" y1="480" x2="796" y2="480" stroke="#ececf0" stroke-width="1"/>
+    <line x1="178" y1="94" x2="178" y2="526" stroke="#f0f0f3" stroke-width="1"/>
+    <line x1="328" y1="94" x2="328" y2="526" stroke="#f0f0f3" stroke-width="1"/>
+    <line x1="478" y1="94" x2="478" y2="526" stroke="#f0f0f3" stroke-width="1"/>
+    <line x1="628" y1="94" x2="628" y2="526" stroke="#f0f0f3" stroke-width="1"/>
+  </g>
+
+  <ellipse cx="450" cy="501" rx="240" ry="35" fill="#000000" opacity="0.08"/>
+
+  <g filter="url(#softShadowHeadphone)">
+    <path d="M318 459 C350 434 550 434 582 459 L624 500 C637 513 628 534 609 534 H291 C272 534 263 513 276 500 Z" fill="url(#metalHeadphone)" stroke="#8f8f95" stroke-width="3"/>
+    <path d="M344 463 C377 449 523 449 556 463 L588 493 H312 Z" fill="#ffffff" opacity="0.45"/>
+    <rect x="315" y="499" width="270" height="18" rx="9" fill="#111111" opacity="0.88"/>
+    <rect x="366" y="474" width="168" height="12" rx="6" fill="#111111" opacity="0.18"/>
+    <circle cx="370" cy="512" r="5" fill="#f7f7f8" opacity="0.85"/>
+    <circle cx="530" cy="512" r="5" fill="#f7f7f8" opacity="0.85"/>
+  </g>
+
+  <g filter="url(#lightShadowHeadphone)">
+    <rect x="431" y="246" width="38" height="220" rx="19" fill="url(#darkMetalHeadphone)" stroke="#000000" stroke-width="2"/>
+    <path d="M450 247 V448" stroke="#ffffff" stroke-width="4" opacity="0.13" stroke-linecap="round"/>
+    <rect x="415" y="432" width="70" height="34" rx="17" fill="#111111"/>
+    <rect x="430" y="439" width="40" height="9" rx="4.5" fill="#ffffff" opacity="0.24"/>
+  </g>
+
+  <g filter="url(#softShadowHeadphone)">
+    <path d="M366 213 C366 162 401 126 450 126 C499 126 534 162 534 213" fill="none" stroke="url(#darkMetalHeadphone)" stroke-width="28" stroke-linecap="round"/>
+    <path d="M392 211 C392 176 416 153 450 153 C484 153 508 176 508 211" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" opacity="0.16"/>
+
+    <path d="M377 223 C399 205 501 205 523 223 L536 243 C543 254 535 268 522 268 H378 C365 268 357 254 364 243 Z" fill="url(#metalHeadphone)" stroke="#8f8f95" stroke-width="3"/>
+    <path d="M395 230 C419 219 481 219 505 230" fill="none" stroke="#ffffff" stroke-width="5" opacity="0.42" stroke-linecap="round"/>
+  </g>
+
+  <g filter="url(#softShadowHeadphone)">
+    <path d="M338 248 C320 270 313 310 318 352 C324 402 350 432 389 427 C419 423 436 397 433 362 L426 296 C422 256 369 210 338 248 Z" fill="url(#earcupHeadphone)" stroke="#000000" stroke-width="3"/>
+    <path d="M562 248 C580 270 587 310 582 352 C576 402 550 432 511 427 C481 423 464 397 467 362 L474 296 C478 256 531 210 562 248 Z" fill="url(#earcupHeadphone)" stroke="#000000" stroke-width="3"/>
+
+    <path d="M351 276 C337 296 333 332 339 365 C345 398 361 415 383 413 C403 411 414 393 412 367 L407 309 C404 281 370 248 351 276 Z" fill="url(#paddingHeadphone)" stroke="#515156" stroke-width="3"/>
+    <path d="M549 276 C563 296 567 332 561 365 C555 398 539 415 517 413 C497 411 486 393 488 367 L493 309 C496 281 530 248 549 276 Z" fill="url(#paddingHeadphone)" stroke="#515156" stroke-width="3"/>
+
+    <path d="M366 302 C361 321 360 351 366 374" stroke="#ffffff" stroke-width="5" opacity="0.12" stroke-linecap="round"/>
+    <path d="M534 302 C539 321 540 351 534 374" stroke="#ffffff" stroke-width="5" opacity="0.12" stroke-linecap="round"/>
+
+    <circle cx="391" cy="346" r="9" fill="#ffffff" opacity="0.08"/>
+    <circle cx="509" cy="346" r="9" fill="#ffffff" opacity="0.08"/>
+  </g>
+
+  <g filter="url(#tinyShadowHeadphone)">
+    <path d="M398 250 C416 242 484 242 502 250 L512 266 C516 273 511 282 503 282 H397 C389 282 384 273 388 266 Z" fill="#111111"/>
+    <rect x="417" y="258" width="66" height="9" rx="4.5" fill="#ffffff" opacity="0.2"/>
+  </g>
+
+  <g opacity="0.98">
+    <rect x="612" y="126" width="212" height="174" rx="22" fill="#ffffff" stroke="#d8d8dc"/>
+    <line x1="636" y1="161" x2="690" y2="161" stroke="#111111" stroke-width="2.6" stroke-linecap="round"/>
+    <line x1="636" y1="198" x2="710" y2="198" stroke="#111111" stroke-width="2.6" stroke-linecap="round"/>
+    <line x1="636" y1="235" x2="682" y2="235" stroke="#111111" stroke-width="2.6" stroke-linecap="round"/>
+    <line x1="636" y1="272" x2="700" y2="272" stroke="#111111" stroke-width="2.6" stroke-linecap="round"/>
+
+    <circle cx="622" cy="161" r="4.5" fill="#111111"/>
+    <circle cx="622" cy="198" r="4.5" fill="#111111"/>
+    <circle cx="622" cy="235" r="4.5" fill="#111111"/>
+    <circle cx="622" cy="272" r="4.5" fill="#111111"/>
+
+    <text x="722" y="167" fill="#111111" font-size="18" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700">Heavy base</text>
+    <text x="722" y="204" fill="#111111" font-size="18" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700">Soft hook</text>
+    <text x="722" y="241" fill="#111111" font-size="18" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700">Cable gap</text>
+    <text x="722" y="278" fill="#111111" font-size="18" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700">Metal body</text>
+  </g>
+
+  <g opacity="0.9">
+    <path d="M165 416 C205 373 250 348 313 336" fill="none" stroke="#111111" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="7 9"/>
+    <path d="M309 326 L331 334 L314 350" fill="none" stroke="#111111" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="102" y="428" width="222" height="38" rx="19" fill="#ffffff" stroke="#d8d8dc"/>
+    <text x="213" y="453" text-anchor="middle" fill="#111111" font-size="17" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700">Stable desk base</text>
+  </g>
+
+  <g opacity="0.9">
+    <path d="M451 221 C490 219 526 226 558 244" fill="none" stroke="#111111" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="6 9"/>
+    <path d="M553 232 L573 253 L543 252" fill="none" stroke="#111111" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="342" y="188" width="218" height="38" rx="19" fill="#ffffff" stroke="#d8d8dc"/>
+    <text x="451" y="213" text-anchor="middle" fill="#111111" font-size="17" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700">Rounded support hook</text>
+  </g>
+
+  <g opacity="0.86">
+    <path d="M520 410 C552 421 585 436 612 462" fill="none" stroke="#111111" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="6 9"/>
+    <path d="M609 449 L624 475 L596 467" fill="none" stroke="#111111" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="585" y="416" width="166" height="38" rx="19" fill="#ffffff" stroke="#d8d8dc"/>
+    <text x="668" y="441" text-anchor="middle" fill="#111111" font-size="17" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="700">Cable clearance</text>
+  </g>
+
+  <g>
+    <rect x="207" y="536" width="486" height="54" rx="27" fill="#ffffff" stroke="#d8d8dc"/>
+    <text x="450" y="572" text-anchor="middle" fill="#050505" font-size="34" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="800" letter-spacing="-1.2">Minimal Headphone Holder</text>
+    <text x="450" y="613" text-anchor="middle" fill="#4b4b50" font-size="21" font-family="-apple-system, BlinkMacSystemFont, Arial, sans-serif" font-weight="600">Clean desk accessory · DeskLab Store</text>
+  </g>
+</svg>

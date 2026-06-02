@@ -1,6 +1,6 @@
 const STORE_CONFIG = {
   storeName: "DeskLab Store",
-  contactEmail: "desklab@example.com",
+  contactEmail: "METTI_QUI_LA_TUA_EMAIL@gmail.com",
   ownerName: "Anton",
   currency: "€"
 };

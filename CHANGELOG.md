@@ -1,5 +1,23 @@
 # Changelog
 
+## v0.3.1-final — Screenshot and Validation Evidence
+
+Status: validation evidence added  
+Release type: presentation closure
+
+### Added
+
+- Added real screenshot evidence under .
+- Updated README screenshot section.
+- Added .
+- Confirmed  validation.
+- Confirmed JavaScript syntax check when Node is available.
+- Prepared GitHub issue closure evidence for v0.3.1 tasks.
+
+### Notes
+
+This step does not modify the storefront logic and does not add backend, payment or checkout features.
+
 ## v0.3.1 — Presentation Polish
 
 Status: repository presentation polish  

@@ -257,22 +257,22 @@ Supporting documents:
 
 ## Screenshots
 
-Screenshots should be stored in:
+The repository now includes real screenshot evidence from the live GitHub Pages deployment.
 
-```text
-assets/screenshots/
-```
+![DeskLab Store homepage](assets/screenshots/homepage.png)
 
-Recommended screenshot files:
+![DeskLab Store catalogue](assets/screenshots/catalogue.png)
 
-```text
-assets/screenshots/homepage.png
-assets/screenshots/catalogue.png
-assets/screenshots/mobile_homepage.png
-assets/screenshots/mobile_catalogue.png
-```
+Optional mobile screenshot, if captured:
 
-If screenshots are present, they can be referenced from this README and from portfolio pages. The screenshots should show the real GitHub Pages deployment, not a fake mockup.
+![DeskLab Store mobile homepage](assets/screenshots/mobile_homepage.png)
+
+Screenshot notes:
+
+-  shows the top/homepage section.
+-  shows the product catalogue section.
+-  is optional and shows responsive/mobile layout.
+- Screenshots are intended to show the real public deployment, not a fake mockup.
 
 ## Technologies used
 

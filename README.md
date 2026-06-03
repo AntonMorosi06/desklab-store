@@ -257,21 +257,21 @@ Supporting documents:
 
 ## Screenshots
 
-The repository now includes real screenshot evidence from the live GitHub Pages deployment.
+The repository includes screenshot evidence from the live GitHub Pages deployment.
 
 ![DeskLab Store homepage](assets/screenshots/homepage.png)
 
 ![DeskLab Store catalogue](assets/screenshots/catalogue.png)
 
-Optional mobile screenshot, if captured:
+Optional mobile/responsive screenshot:
 
 ![DeskLab Store mobile homepage](assets/screenshots/mobile_homepage.png)
 
 Screenshot notes:
 
--  shows the top/homepage section.
--  shows the product catalogue section.
--  is optional and shows responsive/mobile layout.
+- `assets/screenshots/homepage.png` shows the top/homepage section.
+- `assets/screenshots/catalogue.png` shows the product catalogue section.
+- `assets/screenshots/mobile_homepage.png` is optional and shows responsive/mobile layout if captured.
 - Screenshots are intended to show the real public deployment, not a fake mockup.
 
 ## Technologies used

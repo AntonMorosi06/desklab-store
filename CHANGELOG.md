@@ -7,12 +7,12 @@ Release type: presentation closure
 
 ### Added
 
-- Added real screenshot evidence under .
-- Updated README screenshot section.
-- Added .
-- Confirmed  validation.
+- Added screenshot evidence under `assets/screenshots/`.
+- Updated the README screenshot section with explicit screenshot paths.
+- Added and corrected `docs/v0.3.1_validation_evidence.md`.
+- Confirmed `products.json` validation.
 - Confirmed JavaScript syntax check when Node is available.
-- Prepared GitHub issue closure evidence for v0.3.1 tasks.
+- Documented v0.3.1 closure evidence for the screenshot and mobile/console issues.
 
 ### Notes
 

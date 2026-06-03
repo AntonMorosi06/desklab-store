@@ -1,5 +1,33 @@
 # Changelog
 
+## v0.4.1 — Soft Launch and Lead Tracking Kit
+
+Status: first real validation sprint prepared  
+Release type: operational sales validation
+
+### Added
+
+- Added soft launch messages for friends, potential buyers, stories/posts and follow-ups.
+- Added Day Zero action plan.
+- Added laptop stand hero product validation document.
+- Added lead handling playbook.
+- Added soft launch contact tracker CSV.
+- Added local Python tool to add leads to `data/orders_tracker.csv`.
+- Added local Python tool to show recorded leads.
+- Updated README with v0.4.1 soft launch instructions.
+
+### Not added
+
+- No automatic checkout.
+- No payment automation.
+- No analytics tracking.
+- No backend.
+- No spam automation.
+
+### Principle
+
+DeskLab should now be tested with real people manually. The next milestone is not more code: it is 10 contacted people, 5 replies, 3 useful feedback notes and 1 serious product interest.
+
 ## v0.4 — Operational Manual Order Flow
 
 Status: operational MVP baseline  

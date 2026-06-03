@@ -1,0 +1,2 @@
+date,contact_id,channel,person_type,message_type,opened_link,replied,feedback_quality,product_interest,serious_request,next_action,notes
+YYYY-MM-DD,C-0001,whatsapp,classmate,friends_message,unknown,no,none,none,no,wait,

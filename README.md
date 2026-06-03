@@ -223,6 +223,38 @@ The current version does not include:
 
 These limitations are documented intentionally. The project is a strong static baseline, not a fake full-stack e-commerce platform.
 
+## Soft Launch — v0.4.1
+
+DeskLab v0.4.1 introduces the first real validation sprint. The aim is to share the live site with a small trusted audience, collect honest feedback, identify serious product interest and record every lead manually.
+
+Soft launch files:
+
+- `docs/soft_launch_messages.md`
+- `docs/day_zero_action_plan.md`
+- `docs/hero_product_laptop_stand_validation.md`
+- `docs/lead_handling_playbook.md`
+- `data/soft_launch_contacts.csv`
+- `tools/add_lead.py`
+- `tools/show_leads.py`
+
+Local lead tools:
+
+```bash
+python3 tools/add_lead.py
+python3 tools/show_leads.py
+```
+
+First target:
+
+```text
+10 people contacted
+5 replies
+3 useful feedback notes
+1 serious product interest
+0 premature payment requests
+```
+
+
 ## Operational MVP — v0.4
 
 DeskLab Store is now prepared for a controlled manual-order workflow. The goal of v0.4 is not to add automatic checkout. The goal is to receive real requests, validate products, verify suppliers, calculate real margins and decide whether a product is safe to sell.

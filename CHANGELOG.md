@@ -1,5 +1,35 @@
 # Changelog
 
+## v0.4.2 — Privacy-Safe Day Zero Launch
+
+Status: privacy-safe operational launch  
+Release type: real outreach preparation
+
+### Added
+
+- Added `.gitignore` protection for local private operational data.
+- Added `local_private/` local trackers for real contacts and leads.
+- Added privacy-safe public CSV templates under `data/templates/`.
+- Added `tools/add_private_contact.py`.
+- Added `tools/add_private_lead.py`.
+- Added `tools/show_private_data.py`.
+- Added privacy-safe operations documentation.
+- Added Day Zero execution checklist.
+- Added non-private Day Zero summary template.
+- Updated README with privacy-safe operation rules.
+
+### Principle
+
+Real customer/contact data must stay local and must never be pushed to the public GitHub repository.
+
+### Not added
+
+- No checkout.
+- No payment automation.
+- No customer database.
+- No analytics tracking.
+- No automatic messaging.
+
 ## v0.4.1 — Soft Launch and Lead Tracking Kit
 
 Status: first real validation sprint prepared  

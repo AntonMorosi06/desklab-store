@@ -5,3 +5,14 @@ node_modules/
 .env
 .env.local
 *.log
+
+# DeskLab private operational data — never commit real customer/contact data
+local_private/
+private/
+data/*private*.csv
+data/*real*.csv
+data/customer*.csv
+data/leads_real*.csv
+data/orders_real*.csv
+*.local.csv
+*.private.csv

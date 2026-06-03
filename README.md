@@ -223,6 +223,39 @@ The current version does not include:
 
 These limitations are documented intentionally. The project is a strong static baseline, not a fake full-stack e-commerce platform.
 
+## Privacy-safe operations — v0.4.2
+
+DeskLab v0.4.2 separates public project files from real operational data. The repository can contain templates, documentation and non-private summaries, but real contacts and leads must stay local.
+
+Private local folder:
+
+```text
+local_private/
+```
+
+This folder is ignored by Git and must never be force-added.
+
+Privacy-safe tools:
+
+```bash
+python3 tools/add_private_contact.py
+python3 tools/add_private_lead.py
+python3 tools/show_private_data.py
+```
+
+Public documentation:
+
+- `docs/privacy_safe_operations.md`
+- `docs/day_zero_execution_checklist.md`
+- `docs/day_zero_non_private_summary_template.md`
+
+Operational rule:
+
+```text
+Do not commit real customer/contact data to GitHub.
+```
+
+
 ## Soft Launch — v0.4.1
 
 DeskLab v0.4.1 introduces the first real validation sprint. The aim is to share the live site with a small trusted audience, collect honest feedback, identify serious product interest and record every lead manually.

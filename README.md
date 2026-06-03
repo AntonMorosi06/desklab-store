@@ -1,19 +1,72 @@
-# DeskLab Store — MVP e-commerce gratuito
+# DeskLab Store — v0.3 Premium Motion
 
-DeskLab Store è una baseline gratuita per validare un piccolo e-commerce di accessori tech, studio, scrivania e produttività.
+DeskLab Store is a static e-commerce validation project for desk setup, study, productivity and lightweight tech accessories. The purpose of the project is not to behave like a finished commercial shop with automated checkout, warehouse management and payment processing. Its purpose is to validate a focused product catalogue with a clean public interface, a controlled manual ordering workflow, transparent availability checks and a realistic path from prototype store to a more mature online business.
 
-L'obiettivo non è costruire subito uno shop enorme, ma testare pochi prodotti con ordine controllato: il cliente richiede disponibilità, il venditore verifica fornitore, tempi e prezzo finale, poi invia eventuale link pagamento.
+The current version is **v0.3 Premium Motion**. Compared with the first static MVP, this version includes a more polished visual layer, motion enhancements, a structured product catalogue based on JSON, legal draft pages, margin and supplier support files, GitHub Pages publication and a clearer documentation baseline for portfolio review.
 
-## Stato del progetto
+Live site:
 
-Versione: v0.1 MVP statico  
-Hosting previsto: GitHub Pages  
-Backend: assente  
-Checkout automatico: non incluso nella v0.1  
-Pagamento consigliato: link pagamento dopo conferma manuale  
-Catalogo iniziale: 5 prodotti
+https://antonmorosi06.github.io/desklab-store/
 
-## Struttura
+Repository:
+
+https://github.com/AntonMorosi06/desklab-store
+
+## Project status
+
+DeskLab Store is currently a **static validation storefront**. It is suitable for portfolio presentation, UI experimentation, catalogue validation and early business planning. It is not yet a fully operational e-commerce platform.
+
+Current status:
+
+- Version: v0.3 Premium Motion
+- Hosting: GitHub Pages
+- Frontend: static HTML, CSS and JavaScript
+- Product data: local JSON catalogue
+- Backend: not included
+- Database: not included
+- Automated checkout: not included
+- Payment processing: not included
+- Order management: manual / planned
+- Legal documents: draft notes only, not final legal advice
+- Commercial readiness: validation stage, not production-scale retail
+
+This distinction is important. The project is intentionally honest: it shows what already works, what is mocked or manual, and what still needs validation before real commercial use.
+
+## What the site does
+
+DeskLab Store presents a small catalogue of desk and productivity accessories. Products are loaded from `products.json`, displayed in a clean storefront interface and enriched with categories, descriptions, supplier cost targets, margin goals, risk levels and availability notes.
+
+The site is designed around a cautious manual-commerce workflow:
+
+1. The visitor explores the product catalogue.
+2. The visitor requests information or availability.
+3. The seller checks supplier availability, delivery time, real cost and margin.
+4. The seller confirms the final conditions manually.
+5. A payment link may be sent only after verification.
+6. The order is handled according to verified shipping and return conditions.
+
+This avoids pretending that the store already has a complete automated checkout or stock system.
+
+## Core features
+
+The current version includes:
+
+- responsive landing page
+- static product catalogue
+- JSON-based product data
+- category and product-focused structure
+- product cards with image, price, comparison price and availability state
+- lightweight SVG product assets
+- premium motion layer through `v04-premium.css` and `v04-premium.js`
+- favicon and visual identity assets
+- legal draft folder
+- supplier checklist
+- margin sheet
+- local development through Python HTTP server
+- GitHub Pages deployment
+- documentation baseline for future releases
+
+## File structure
 
 ```text
 desklab-store/
@@ -21,126 +74,196 @@ desklab-store/
 ├── style.css
 ├── app.js
 ├── products.json
+├── v04-premium.css
+├── v04-premium.js
+├── setup_notes.sh
 ├── README.md
-├── legal/
-│   ├── shipping_returns.md
-│   ├── privacy_notes.md
-│   └── terms_draft.md
+├── CHANGELOG.md
+├── assets/
+│   ├── icons/
+│   │   └── favicon.svg
+│   └── images/
+│       ├── product-cable-organizer.svg
+│       ├── product-desk-mat.svg
+│       ├── product-headphone-holder.svg
+│       ├── product-laptop-stand.svg
+│       └── product-phone-stand.svg
 ├── data/
 │   ├── margin_sheet.csv
 │   └── supplier_checklist.md
-└── assets/
-    ├── images/
-    └── icons/
+├── docs/
+│   ├── current_status.md
+│   ├── github_pages_notes.md
+│   ├── project_roadmap.md
+│   ├── publication_notes.md
+│   └── validation_checklist.md
+└── legal/
+    ├── privacy_notes.md
+    ├── shipping_returns.md
+    └── terms_draft.md
 ```
 
-## Come avviare in locale
+## How to run locally
 
-Aprire il terminale nella cartella del progetto:
+Open Terminal and run:
 
 ```bash
 cd ~/Desktop/desklab-store
 python3 -m http.server 8000
 ```
 
-Poi aprire:
+Then open:
 
 ```text
 http://localhost:8000
 ```
 
-Nota: non aprire `index.html` direttamente dal Finder se il catalogo non si carica. Il file `products.json` viene letto via `fetch`, quindi è meglio usare un server locale.
+Do not open `index.html` directly from Finder when testing the catalogue. The file `products.json` is loaded through `fetch`, so a local server is the correct way to test the project.
 
-## Come pubblicare su GitHub Pages
+## How to deploy on GitHub Pages
 
-1. Crea una repository chiamata `desklab-store`.
-2. Carica questi file nella root della repo.
-3. Vai su Settings → Pages.
-4. Seleziona branch `main`, folder `/root`.
-5. Salva e attendi la pubblicazione.
+The project is designed to run directly from the repository root.
 
-## Cosa modificare subito
+Recommended GitHub Pages settings:
 
-Nel file `app.js`, cambia:
-
-```js
-contactEmail: "desklab@example.com"
+```text
+Source: Deploy from a branch
+Branch: main
+Folder: / root
 ```
 
-con la tua email dedicata allo store.
+Expected public URL:
 
-Nel file `products.json`, per ogni prodotto puoi modificare:
+```text
+https://antonmorosi06.github.io/desklab-store/
+```
 
-- nome
-- prezzo
-- categoria
-- descrizione
-- tempi stimati
-- costo fornitore target
-- link pagamento, quando sarà pronto
-- immagine
+After a push, GitHub Pages may need a short delay before serving the updated version. If the browser still shows the previous version, use a hard refresh with `CMD + SHIFT + R`.
 
-## Pagamenti
+## Product catalogue
 
-La v0.1 non include checkout automatico.
+The catalogue is stored in:
 
-Metodo consigliato:
+```text
+products.json
+```
 
-1. Il cliente richiede disponibilità.
-2. Verifichi fornitore e tempi.
-3. Confermi prezzo finale.
-4. Invii link pagamento.
-5. Spedisci o ordini dal fornitore seguendo le condizioni comunicate.
+Each product contains:
 
-## Note legali e fiscali
+- id
+- name
+- category
+- price
+- compareAt
+- status
+- risk
+- supplierCostTarget
+- shippingEstimate
+- marginGoal
+- short description
+- full description
+- features
+- image path
+- optional paymentLink
 
-Le bozze in `legal/` non sono consulenza legale. Servono come base di lavoro da far verificare prima della vendita reale.
+At this stage, payment links are intentionally empty. They should be added only after real supplier checks, pricing validation and legal/fiscal review.
 
-Prima di vendere in modo abituale/continuativo, verificare con commercialista o consulente:
+## Business validation model
 
-- Partita IVA
-- inquadramento attività
-- SCIA/SUAP se applicabile
-- Registro Imprese/ComUnica se applicabile
-- privacy
-- condizioni di vendita
-- recesso
-- garanzia legale
-- gestione resi e rimborsi
+DeskLab Store follows a low-risk validation model. Instead of buying stock immediately or activating automated payment too early, the project starts with a narrow catalogue and validates:
 
-## Roadmap
+- demand
+- product clarity
+- supplier availability
+- delivery time
+- customer expectations
+- gross margin
+- return risk
+- communication workflow
+- legal and fiscal requirements
 
-### v0.1
+The store should not promise immediate shipping, guaranteed stock or automated checkout until those parts have been verified.
 
-- sito statico
-- catalogo 5 prodotti
-- filtri e ricerca
-- richiesta disponibilità via email
-- pagine legali in bozza
-- foglio margini base
+## Legal and fiscal note
 
-### v0.2
+The files inside `legal/` are working drafts. They are not legal advice and they are not final commercial terms.
 
-- aggiunta prodotti validati
-- foto prodotto reali o autorizzate
-- dominio personalizzato
-- email dedicata
-- link pagamento per singolo prodotto
+Before selling products continuously or publicly as a real business, the project should be reviewed with appropriate professional support, including fiscal and legal checks about:
 
-### v0.3
+- VAT / tax position
+- business registration requirements
+- consumer rights
+- withdrawal rights
+- warranty obligations
+- privacy policy
+- cookie and analytics usage, if added
+- payment terms
+- returns and refunds
+- supplier responsibility
+- shipping responsibility
 
-- tracking ordini manuale
-- test prime vendite
-- raccolta feedback clienti
-- revisione prezzi e margini
+## Current limitations
 
-### v0.4
+The current version does not include:
 
-- eventuale passaggio a piattaforma e-commerce completa
-- automazione checkout
-- policy legali definitive
-- valutazione stock minimo
+- backend
+- database
+- user accounts
+- admin panel
+- automated checkout
+- cart persistence across devices
+- real inventory tracking
+- real order tracking
+- automated email sending
+- payment gateway integration
+- analytics dashboard
+- final legal policy
+- verified suppliers
+- production customer support workflow
 
-## Regola madre
+These limitations are documented intentionally. The project is a strong static baseline, not a fake full-stack e-commerce platform.
 
-Non vendere prodotti non verificati, non usare foto senza permesso, non promettere spedizioni irreali e non attivare pagamento automatico prima di avere fornitori e condizioni chiare.
+## Roadmap summary
+
+The next development steps are:
+
+- v0.3.1: polish documentation, screenshots and GitHub presentation
+- v0.3.2: improve product validation workflow and supplier notes
+- v0.4: add simple order request tracking without payment automation
+- v0.5: add verified product photos and stronger brand identity
+- v0.6: evaluate payment links after supplier and legal validation
+- v1.0: release only after real business workflow, policy review and stable operations
+
+See `docs/project_roadmap.md` for the detailed roadmap.
+
+## Technologies used
+
+- HTML5
+- CSS3
+- JavaScript
+- JSON
+- SVG assets
+- Git
+- GitHub
+- GitHub Pages
+- Python local HTTP server for testing
+
+## Repository philosophy
+
+DeskLab Store is maintained with a simple rule: do not overclaim.
+
+Every visible feature should be classified correctly:
+
+- implemented
+- static
+- manual
+- draft
+- planned
+- not included
+
+This makes the project stronger for portfolio review because it demonstrates not only interface design, but also technical honesty, product reasoning and release discipline.
+
+## License and reuse
+
+This repository is currently a personal project and portfolio/business validation experiment. Before reusing the visual identity, product structure or commercial texts, review the intended license and publication status.
+

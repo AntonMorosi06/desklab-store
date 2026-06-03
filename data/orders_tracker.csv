@@ -1,0 +1,2 @@
+date,lead_id,status,customer_name,customer_email,city,product_id,product_name,quantity,price_indicative,final_price,supplier_checked,supplier_cost,shipping_cost,estimated_delivery,payment_status,order_status,notes
+YYYY-MM-DD,DL-0001,new_request,,,,,,1,,,,not_checked,,,,,

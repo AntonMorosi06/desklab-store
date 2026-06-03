@@ -1,0 +1,6 @@
+product_id,product_name,category,current_status,risk_level,supplier_cost_target,shipping_estimate,margin_goal,validation_status,first_action,next_review_date,notes
+phone-stand-01,Supporto smartphone regolabile,Telefono,Disponibilità da confermare,basso,5-8 EUR,7-15 giorni,almeno 35%,needs_review,check supplier and shipping,,Start with low-risk validation
+cable-organizer-01,Organizer cavi da scrivania,Organizzazione,Disponibilità da confermare,basso,2-5 EUR,7-15 giorni,almeno 40%,needs_review,check supplier and bundle size,,Good low-ticket product
+laptop-stand-01,Stand laptop pieghevole,Postazione,Disponibilità da confermare,medio-basso,9-15 EUR,7-18 giorni,almeno 30%,priority_review,validate first as hero product,,Best first hero product
+desk-mat-01,Tappetino desk setup XL,Postazione,Disponibilità da confermare,medio,8-16 EUR,8-18 giorni,almeno 30%,needs_review,check material and shipping bulk,,Higher shipping/quality risk
+headphone-holder-01,Supporto cuffie minimal,Organizzazione,Disponibilità da confermare,basso,3-7 EUR,7-15 giorni,almeno 35%,needs_review,check supplier and mounting stability,,Simple validation product

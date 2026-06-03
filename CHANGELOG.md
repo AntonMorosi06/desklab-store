@@ -1,5 +1,36 @@
 # Changelog
 
+## v0.4 — Operational Manual Order Flow
+
+Status: operational MVP baseline  
+Release type: manual-commerce workflow
+
+### Added
+
+- Added v0.4 operational launch plan.
+- Added manual order workflow documentation.
+- Added customer reply templates.
+- Added supplier validation checklist.
+- Added first 7 days sales plan.
+- Added legal/fiscal review questions.
+- Added pre-sale disclaimer draft.
+- Added manual order tracker CSV.
+- Added product validation matrix CSV.
+- Updated `index.html` with the v0.4 operational order section.
+- Updated README with the Operational MVP section.
+
+### Not added
+
+- No automatic checkout.
+- No payment gateway.
+- No backend.
+- No customer database.
+- No inventory automation.
+
+### Principle
+
+DeskLab Store should validate demand, supplier conditions and product margins before activating payments or scaling.
+
 ## v0.3.1-final — Screenshot and Validation Evidence
 
 Status: validation evidence added  

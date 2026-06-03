@@ -223,6 +223,41 @@ The current version does not include:
 
 These limitations are documented intentionally. The project is a strong static baseline, not a fake full-stack e-commerce platform.
 
+## Operational MVP — v0.4
+
+DeskLab Store is now prepared for a controlled manual-order workflow. The goal of v0.4 is not to add automatic checkout. The goal is to receive real requests, validate products, verify suppliers, calculate real margins and decide whether a product is safe to sell.
+
+Operational files:
+
+- `docs/v0.4_operational_launch_plan.md`
+- `docs/manual_order_workflow.md`
+- `docs/customer_reply_templates.md`
+- `docs/supplier_validation_checklist.md`
+- `docs/first_7_days_sales_plan.md`
+- `docs/legal_fiscal_review_questions.md`
+- `data/orders_tracker.csv`
+- `data/product_validation_matrix.csv`
+- `legal/pre_sale_disclaimer.md`
+
+Manual order flow:
+
+```text
+Customer request
+↓
+Lead recorded in data/orders_tracker.csv
+↓
+Supplier and margin check
+↓
+Final price and timing confirmation
+↓
+Payment link only after manual confirmation
+↓
+Manual order tracking
+```
+
+DeskLab should not activate automatic checkout, real payment buttons, analytics tracking or aggressive sales claims until product, supplier, legal, fiscal and privacy checks are complete.
+
+
 ## Roadmap summary
 
 The next development steps are:

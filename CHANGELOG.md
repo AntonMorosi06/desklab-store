@@ -1,5 +1,26 @@
 # Changelog
 
+## v0.3.1 — Presentation Polish
+
+Status: repository presentation polish  
+Release type: documentation and portfolio improvement
+
+### Added
+
+- Added portfolio case study document.
+- Added release notes document for v0.3.
+- Added repository presentation notes.
+- Added v0.3.1 presentation polish plan.
+- Added screenshot folder and screenshot instructions.
+- Added GitHub issue template for structured future tasks.
+- Updated README with portfolio presentation guidance and screenshot plan.
+
+### Not changed
+
+- No frontend logic was rewritten.
+- No product data was changed.
+- No payment, backend or checkout system was added.
+
 All notable changes to DeskLab Store are documented in this file.
 
 ## v0.3 — Premium Motion Documentation Baseline

@@ -236,6 +236,44 @@ The next development steps are:
 
 See `docs/project_roadmap.md` for the detailed roadmap.
 
+
+## Portfolio presentation
+
+DeskLab Store can be presented as a static e-commerce validation storefront. The strongest way to describe it is not as a finished online shop, but as a realistic validation project that combines frontend development, product catalogue modeling, GitHub Pages deployment and business workflow discipline.
+
+Recommended portfolio summary:
+
+```text
+DeskLab Store is a static storefront prototype for validating a small catalogue of desk setup and productivity accessories. It uses a JSON catalogue, responsive HTML/CSS/JavaScript UI, premium motion enhancements and GitHub Pages deployment. The project is intentionally documented as a validation system rather than a fake complete e-commerce platform.
+```
+
+Supporting documents:
+
+- `docs/portfolio_case_study.md`
+- `docs/release_notes_v0.3.md`
+- `docs/repository_presentation.md`
+- `docs/current_status.md`
+- `docs/project_roadmap.md`
+
+## Screenshots
+
+Screenshots should be stored in:
+
+```text
+assets/screenshots/
+```
+
+Recommended screenshot files:
+
+```text
+assets/screenshots/homepage.png
+assets/screenshots/catalogue.png
+assets/screenshots/mobile_homepage.png
+assets/screenshots/mobile_catalogue.png
+```
+
+If screenshots are present, they can be referenced from this README and from portfolio pages. The screenshots should show the real GitHub Pages deployment, not a fake mockup.
+
 ## Technologies used
 
 - HTML5
